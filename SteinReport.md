@@ -34,7 +34,7 @@ One of the foundational aspects of the James-Stein estimator's efficacy is encap
 
 Theorem 1 (Stein’s Paradox) is expressed mathematically as:
 
-           ![JS](https://github.com/andrewrobson3000/Bayesian-Shrinkage-Statistical-Estimates-with-James-Stein/assets/87878168/94186ec0-e70f-4d38-9988-65e2c0c21a99)
+![JS](https://github.com/andrewrobson3000/Bayesian-Shrinkage-Statistical-Estimates-with-James-Stein/assets/87878168/94186ec0-e70f-4d38-9988-65e2c0c21a99)
 
 
 This estimator strictly dominates the MLE $(\hat{\mu}_{MLE} = X)$ in terms of quadratic loss, provided that the number of parameters $p$ is three or more.
