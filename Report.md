@@ -31,9 +31,16 @@ At first glance, these measurements appear entirely unrelated, each pertaining t
 ## Theoretical Underpinnings of the James-Stein Estimator
 
 One of the foundational aspects of the James-Stein estimator's efficacy is encapsulated in Theorem 1, known as Stein's Paradox. This theorem elegantly captures the essence of why the James-Stein estimator outperforms traditional estimators like the Maximum Likelihood Estimate (MLE) in certain multi-parameter estimation scenarios.
+
 Theorem 1 (Stein’s Paradox) is expressed mathematically as:
 
-$$\hat{\mu}_{JS} := \left(1 - \frac{p - 2}{\sum_{i=1}^{p} X_i^2}\right)X$$
+
+$
+\hat{\mu}_{JS} := \left(1 - \frac{p - 2}{\sum_{i=1}^{p} X_i^2}\right)X
+$
+
+
+This estimator strictly dominates the MLE $(\hat{\mu}_{MLE} = X)$ in terms of quadratic loss, provided that the number of parameters $p$ is three or more.
 
 This estimator strictly dominates the MLE $(\hat{\mu}_{MLE} = X)$ in terms of quadratic loss, provided that the number of parameters $p$ is three or more.
 
