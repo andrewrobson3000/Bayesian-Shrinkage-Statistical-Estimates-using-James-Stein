@@ -46,3 +46,5 @@ A.Robson
 ## Example
 
 ### An example of how Shrinkage works. Note the JS estimate for Sosa and Griffey are closer to $\mu_i$ than $X_i$ (i.e. demonstrating shrinkage towards the mean) 
+
+![JS_plot](https://github.com/andrewrobson3000/Bayesian-Shrinkage-Statistical-Estimates-with-James-Stein/assets/87878168/276f7c96-f1ec-495b-997b-ac55aa239b4b)
