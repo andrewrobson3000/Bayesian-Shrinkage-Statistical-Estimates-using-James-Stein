@@ -34,7 +34,9 @@ One of the foundational aspects of the James-Stein estimator's efficacy is encap
 
 Theorem 1 (Stein’s Paradox) is expressed mathematically as:
 
-$\hat{\mu}_{JS} := \left(1 - \frac{p - 2}{\sum_{i=1}^{p} X_i^2}\right)X$
+$$
+\hat{\mu}_{JS} := \left(1 - \frac{p - 2}{\sum_{i=1}^{p} X_i^2}\right)X
+$$
 
 This estimator strictly dominates the MLE $(\hat{\mu}_{MLE} = X)$ in terms of quadratic loss, provided that the number of parameters $p$ is three or more.
 
