@@ -45,7 +45,7 @@ A.Robson
 
 ## Example
 
-### An example of how Shrinkage works. Note the JS estimate for Sosa and Griffey are closer to $\mu_i$ than $X_i$ (i.e. demonstrating shrinkage towards the mean) 
+An example of how Shrinkage works. Note the JS estimate for Sosa and Griffey are closer to $\mu_i$ than $X_i$ (i.e. demonstrating shrinkage towards the mean) 
 
 <div align="center">
   
